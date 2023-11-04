@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: dental_office
+      password: dental_office
+      url: jdbc:mysql://localhost:3306/dental_office
+   
+   jpa:
+      hibernate:
+         ddl_auto: create
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: always
